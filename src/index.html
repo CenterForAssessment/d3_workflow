@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="./src/vendor/d3.min.js"></script>
+  <!-- CSS styles for this page -->
+  <style>
+    button {
+      display: block;
+      width: 100px;
+      height: 35px;
+      text-align: center;
+      margin: 1em;
+    }
+  </style>
+</head>
+<body>
+	
+<!-- D3 will create your chart within this div -->
+<div id="chart"></div>
+
+<!-- the data your chart will render, stored in a variable -->
+<script type="text/javascript">
+  var chartData = [
+    { label: 'Gretchen' },
+    { label: 'Ben' },
+    { label: 'Damian' },
+    { label: 'Charlie' },
+    { label: 'Luciana' },
+  ];
+</script>
+
+<!-- the code to create your chart goes here -->
+<script type="text/javascript">
+  d3.select('#chart')
+    .selectAll('button')
+    .data(chartData)
+    .enter()
+      .append('button')
+      .html(function (d) {
+        return d.label;
+      });
+</script>
+
+</body>
+</html>
