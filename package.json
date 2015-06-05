@@ -1,15 +1,19 @@
 {
-  "name": "workflow-primer",
+  "name": "d3_workflow",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "chart.js",
   "scripts": {
-    "start": "browser-sync start --server --index 'src/index.html' --files '**/*'"
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CenterForAssessment/d3_workflow.git"
   },
   "keywords": [],
-  "author": "Ben Clinkinbeard <ben.clinkinbeard@gmail.com> (http://benclinkinbeard.com/)",
   "license": "MIT",
-  "dependencies": {
-    "browser-sync": "^2.7.6"
-  }
+  "bugs": {
+    "url": "https://github.com/CenterForAssessment/d3_workflow/issues"
+  },
+  "homepage": "https://github.com/CenterForAssessment/d3_workflow"
 }
