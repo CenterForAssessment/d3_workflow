@@ -1,7 +1,3 @@
-button {
-	display: block;
-	width: 100px;
-	height: 35px;
-	text-align: center;
-	margin: 1em;
+.bar {
+	fill: lightblue;
 }

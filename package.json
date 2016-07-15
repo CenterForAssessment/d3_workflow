@@ -2,9 +2,8 @@
   "name": "d3_workflow",
   "version": "1.0.0",
   "description": "",
-  "main": "chart.js",
   "scripts": {
-    "start": "serve"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/CenterForAssessment/d3_workflow/issues"
   },
-  "homepage": "https://github.com/CenterForAssessment/d3_workflow"
+  "homepage": "https://github.com/CenterForAssessment/d3_workflow",
+  "devDependencies": {
+    "browser-sync": "2.13.0"
+  }
 }
